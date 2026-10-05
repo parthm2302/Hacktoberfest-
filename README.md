@@ -4,6 +4,8 @@ Snap a photo of a problem and get **hints, not answers**. Hintly helps students 
 
 Built for Hacktoberfest 2026 Hack Day (Android Club VITC) with **Gemma 4**, Google's open-weights multimodal model, via the Gemini API.
 
+🚀 **Live demo:** https://hintly.streamlit.app
+
 ## Features
 - Upload a photo or use your camera (textbook, notes, diagrams, whiteboards)
 - 3 hint levels: Nudge, Method, Worked steps
@@ -12,8 +14,8 @@ Built for Hacktoberfest 2026 Hack Day (Android Club VITC) with **Gemma 4**, Goog
 
 ## Run it
 ```bash
-git clone <your-repo-url>
-cd hintly
+git clone https://github.com/parthm2302/Hacktoberfest-.git
+cd Hacktoberfest-
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
